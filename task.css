@@ -1,0 +1,122 @@
+#res{
+    /* border: 1px solid black; */
+ text-align: center;
+ 
+}
+#one{
+    text-align: center;
+    height: 100vh;
+   
+}
+#part1{
+    /* border: 1px solid black; */
+    padding-left: 10%;
+    width: 50%;
+    position: relative;
+    top: 35%;
+}
+body{
+    background: linear-gradient(to right,skyblue,rgb(5, 59, 80));
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-clip: content-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-size: 90px;
+   color: #fff;
+}
+h5{
+    background: linear-gradient(to right,rgb(118, 165, 219),rgb(5, 59, 80));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p{
+    color: azure;
+    font-size: large;
+    font-weight: 700;
+}
+@media (min-width: 300px) and (max-width: 528px) {
+    /* Styles for medium-sized screens */
+    body {
+        background-image: url('./streetlight-cloudy-day.jpg');
+        background-size: cover;
+        height: max-content;
+    }
+    h1{
+        font-size: 30px;
+       color: #fff;
+    }
+    #part1{
+        /* border: 1px solid black; */
+        padding-left: 10%;
+        width: 100%;
+        position: relative;
+        top: 20%;
+        margin-bottom: 10px;
+    }
+    #page2{
+        position: absolute;
+        top: 150px;
+       
+    }
+    #page22{
+      position: relative;
+      right: 60%;
+      top: 190px;
+     
+      
+    }
+    
+   
+   
+
+}
+#page2{
+    position: absolute;
+    top: 150px;
+    left: 55%;
+   
+}
+.input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input {
+    min-height: 50px;
+    max-width: 250px;
+    padding: 0 1rem;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #5e4dcd;
+    border-radius:10px;
+    background-color: transparent;
+    
+  }
+  
+  .button--submit {
+    min-height: 50px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background: linear-gradient(to right,rgb(76, 103, 163),rgb(65, 51, 197));
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+  }
+  
+  .button--submit:hover {
+    background-color: #5e5dcd;
+  }
+  
+  .input:focus, .input:focus-visible {
+    border-color: #3898EC;
+    outline: none;
+  }
+  
+
+
+   
+
