@@ -1,1 +1,1 @@
-https://suriyawap.github.io/weather-application/index.html
+https://suriyawap.github.io/weather-application/
